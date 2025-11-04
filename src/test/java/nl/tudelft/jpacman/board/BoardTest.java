@@ -4,6 +4,9 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 import org.junit.jupiter.api.Test;
 
 public class BoardTest {
+     /**
+     * Creates a test for valid board
+     */
     @Test
     void testValidBoard() {
         Square[][] grid = new Square[1][1];
@@ -12,6 +15,9 @@ public class BoardTest {
 
         assertThat(board.invariant()).isTrue();
     }
+     /**
+     * Creates a test for valid board with null square
+     */
     @Test
     void testBoardNullSquare() {
         Square[][] grid = new Square[1][1];
