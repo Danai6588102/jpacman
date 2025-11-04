@@ -3,6 +3,12 @@ import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 import org.junit.jupiter.api.Test;
 
+/**
+ * Basic implementation of unit.
+ *
+ * @author Danai Suwantanee
+ */
+
 public class BoardTest {
      /**
      * Creates a test for valid board
