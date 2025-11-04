@@ -1,7 +1,5 @@
 package nl.tudelft.jpacman.board;
-
 import static org.assertj.core.api.Assertions.assertThat;
-
 import org.junit.jupiter.api.Test;
 
 /**
@@ -13,7 +11,7 @@ import org.junit.jupiter.api.Test;
 public class DirectionTest {
     
     /**
-     * Do we get the correct delta when moving north?
+     *
      */
     @Test
     void testNorth() {
@@ -22,7 +20,7 @@ public class DirectionTest {
     }
     
      /**
-     * Creates a test for south
+     *
      */
     @Test
     void testSouth() {
@@ -31,7 +29,7 @@ public class DirectionTest {
     }
     
     /**
-     * Creates a test for east
+     *
      */
     @Test
     void testEast() {
@@ -40,7 +38,7 @@ public class DirectionTest {
     }
     
     /**
-     * Creates a test for west
+     *
      */
     @Test
     void testWest() {
