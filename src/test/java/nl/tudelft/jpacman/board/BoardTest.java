@@ -8,10 +8,10 @@ import org.junit.jupiter.api.Test;
  *
  * @author Danai Suwantanee
  */
-
 public class BoardTest {
+    
      /**
-     * Creates a test for valid board
+     *
      */
     @Test
     void testValidBoard() {
@@ -21,8 +21,9 @@ public class BoardTest {
 
         assertThat(board.invariant()).isTrue();
     }
+    
      /**
-     * Creates a test for valid board with null square
+     *
      */
     @Test
     void testBoardNullSquare() {
